@@ -1,0 +1,92 @@
+iframe {
+  display: none
+}
+
+.vlpointer {
+  cursor: pointer;
+}
+
+.val_pad {
+  padding: 3px;
+  font-size: 17px;
+  white-space: nowrap;
+}
+
+.val_under {
+  text-decoration: underline;
+}
+
+
+th {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+/* thead, tbody, tfoot, tr, td, th{
+  position: relative;
+  bottom: 5px;
+} */
+
+.checklist_position {
+  position: relative;
+  top: 9px;
+}
+
+.event_position {
+  position: relative;
+    top: 17px;
+}
+
+.important_record_position {
+  position: relative;
+  top: 17px;
+}
+
+.checklist_outerline {
+  border: 1px solid #ddd;
+  margin: 10px 10px 0px 10px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.imp_rec{
+  border-collapse: collapse;
+  margin-bottom: 23px;
+}
+
+/* button.save_btn{
+    position: relative;
+    margin-left: 459%;
+} */
+
+button.imp_record_dropdown_btn{
+  border: none;
+  background: #bbb;
+  border-radius: 2px;
+  padding: 0px 7px;
+  color: white;
+  margin-left: 4px;
+  margin-bottom: 5px;
+  font-size:small;
+  line-height:small;
+}
+
+button.imp_record_dropdown_btnp {
+  border: none;
+  background: #bbb;
+  border-radius: 2px;
+  padding: 0px 5px;
+  color: rgb(0, 0, 0);
+  margin-left: 4px;
+  margin-bottom: 5px;
+  font-size:small;
+  line-height:small;
+}
+
+
+/* thead.important_records{
+  border-bottom: 1px solid black;
+} */
+
+
+

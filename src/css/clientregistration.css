@@ -1,0 +1,51 @@
+iframe {
+  display: none
+}
+
+.formtext {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.btncontrol {
+  font-size: 20px;
+  padding: 3px;
+}
+.inputflx {
+  display: flex;
+}
+
+.inputpd {
+  padding: 0px 10px;
+}
+
+.copybtn {
+  margin-left: 4px;
+  font-size: 20px;
+  border-radius: 7px;
+}
+.insrtbtn {
+  font-size: 15px;
+  cursor: pointer;
+  margin: 3px;
+  /* width: 79px; */
+}
+.flagtext {
+  margin: 9px;
+  border: outset;
+  border-radius: 11px;
+  cursor: pointer;
+}
+.tabmodify {
+  margin: 4px;
+  background: white;
+  border-radius: 7px;
+}
+
+/* .dropicon{
+	color: black;
+    font-size: large;
+    margin-left: -34px;
+    padding: 6px;
+	
+} */

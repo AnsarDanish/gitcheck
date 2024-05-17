@@ -1,0 +1,30 @@
+/* iframe {
+    display: none
+} */
+
+/* .inventory_table {
+    display: flex;
+}
+
+.inventory_column {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.inv_row {
+    border: 1px black solid;
+    height: 3em;
+    margin: auto;
+    width: 100%;
+} */
+
+.inventory_outerline {
+    border: 1px solid #ddd;
+    margin: 10px 10px 0px 10px;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
+.row-color{
+    background-color: #e9ecef;
+  }

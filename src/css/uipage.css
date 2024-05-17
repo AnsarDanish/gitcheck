@@ -1,0 +1,36 @@
+iframe {
+  display: none
+}
+
+.ui {
+  background-image: linear-gradient(#495579, #263159);
+  background-image: linear-gradient(to bottom right, #495579, #263159);
+}
+
+.uipage {
+  background-image: url("../resource/loom7.png");
+  background-size: cover;
+}
+
+.hedd {
+  color: var(--primary-heading);
+  font: var(--primary-font);
+  font-size: 2em;
+  font-weight: 400;
+}
+
+.hedd2 {
+  color: var(--primary-heading);
+  font: var(--primary-font);
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.mainbtn {
+  padding: 5px 20px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #f49d1a, #fb2576);
+  color: #fff;
+  border: none;
+  margin-top: 20px;
+}

@@ -1,0 +1,28 @@
+iframe {
+  display: none
+}
+
+.selected-p{
+background-color: #0d6efd;
+color :aliceblue;
+}
+
+.ms-std-container{
+    overflow: auto;
+    background-color: #e0e0e0;
+    resize: vertical;
+    border-radius: 0px;
+   min-height: 150px;
+}
+
+.std-sf_container {
+    /* position: absolute; */
+    background: white;
+    border: #212529 solid 1px;
+    max-width: 100%;
+    z-index: 100;
+    box-shadow: black 5px 3px 8px;
+    justify-content: start;
+    max-height: 200px;
+    overflow-y: scroll;
+  }

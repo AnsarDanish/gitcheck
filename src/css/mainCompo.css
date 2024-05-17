@@ -1,0 +1,270 @@
+iframe {
+  display: none;
+}
+
+.cl_small {
+  flex: 0 0 auto;
+  width: 25% !important;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  transform: translateX(0);
+  transition: transform 1s;
+}
+.cl_small_mob {
+  flex: 0 0 auto;
+  width: 75% !important;
+  position: absolute;
+  z-index: 100;
+  transform: translateX(0);
+  transition: transform 1s;
+}
+.cl_tab {
+  flex: 0 0 auto;
+  width: 45% !important;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  transform: translateX(0);
+  transition: transform 1s;
+}
+.cl_yes_tab {
+  flex: 0 0 auto;
+  width: 55%;
+  padding: 0px;
+  /* overflow-x: hidden; */
+}
+.cl_big {
+  flex: 0 0 auto;
+  width: 75%;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.cl_no {
+  display: none;
+  /* display: block; */
+}
+
+.cl_yes {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.cl_yes_mob {
+  flex: 0 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+.disfl {
+  display: flex;
+}
+
+.fl1 {
+  flex: 1;
+}
+
+.left_icon_zero {
+  top: 0;
+  position: absolute;
+  left: 0%;
+  width: fit-content;
+  /* padding: 0.6rem 0.5rem; */
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background: var(--primary-heading);
+  color: var(--primary);
+  padding: 6.7px 7.3px;
+}
+
+/* .ovlay { */
+/* ;width: 300px;
+	overflow-y: scroll;
+	position: relative;
+	height: 600px */
+/* } */
+
+.mainTopBar {
+  /* color: var(--primary-heading); */
+  font: var(--primary-font);
+  /*font-size: var(--primary-font-size);*/
+}
+@media (max-width: 500px) {
+  .main-div {
+    height: 38px;
+  }
+}
+
+.lfnavserach {
+  height: 2em;
+  border-radius: 10px;
+}
+
+.homepadd {
+  padding-left: 12px;
+}
+
+.home_top {
+  position: relative;
+  top: -1px;
+}
+@media (max-width: 500px) {
+  .home_top {
+    top: 6px;
+  }
+}
+
+.homeicon {
+  font-size: var(--primary-font-size1-5) !important;
+  cursor: pointer;
+  /* padding-left: 8px; */
+  color: var(--primary-heading);
+  /* display: flex ; */
+  align-items: center;
+}
+
+.loom_text {
+  padding-left: 9px;
+  margin-bottom: 4px;
+  font-size: var(--primary-font-size1-3);
+  /* font-family: "FontAwesome"; */
+  font-family: serif;
+  padding-top: 2px;
+}
+
+/* User Notification Css */
+/* .message-item:hover {
+  color: rgb(51,102,204);
+} */
+
+.usernoti_outerline {
+  border: 1px solid #ddd;
+  /* margin: 10px 10px 0px 10px; */
+  border-radius: 3px;
+  /* padding: 5px; */
+  padding: 20px 22px;
+}
+
+/* */
+
+.homeicon_font {
+  font-size: var(--primary-font-size1-4) !important;
+}
+
+.usericon {
+  font-size: var(--primary-font-size1-2) !important;
+  cursor: pointer;
+  padding-left: 4px;
+  color: var(--primary-heading);
+}
+
+.u-name {
+  text-align: center;
+  font-size: var(--primary-font-size1-3);
+  color: var(--primary-heading);
+  font-family: serif;
+  /* font-family: "FontAwesome"; */
+}
+
+.mainbgcolor {
+  background: var(--primary-top-bar);
+  padding: 0px 4px 0px 4px;
+}
+
+.refreshic {
+  font-size: 25px;
+  cursor: pointer;
+  padding-left: 13px;
+}
+
+.ovr {
+  overflow: overlay;
+}
+
+.backic {
+  cursor: pointer;
+}
+
+.pagesetup {
+  height: inherit;
+  max-height: inherit;
+/*   overflow: auto; */
+  /* overflow-y: scroll; */
+  /* overflow-x: clip; */
+}
+
+.no_pad {
+  padding: 0px;
+}
+
+.gutter {
+  --bs-gutter-x: 0rem;
+}
+
+.rig {
+  float: right;
+  padding-right: 10px;
+  padding-top: 3px;
+}
+
+.act_as {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.act-client {
+  margin-left: 2em;
+}
+
+.clt {
+  margin-left: 13px;
+}
+
+.user {
+  margin-left: 21px;
+}
+
+.span-cnt {
+  position: relative;
+  padding-right: 3px;
+  padding-left: 3px;
+  border-radius: 5px;
+  left: -9px;
+  top: -7px;
+  width: 2px;
+  font-size: small;
+  background-color: red;
+}
+
+.marleft10 {
+  margin-left: 2em;
+}
+
+.fr {
+  --bs-gutter-x: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .row {
+    margin: 0px !important;
+  }
+}
+
+:root {
+  --primary: #000;
+  --primary-top-bar: #282a3a;
+  --primary-heading: #fff;
+  --primary-font-size: 1rem;
+  --relation-active: #000;
+  --relation-nonactive: #282a3a; /*#27374d; */
+  --relation-color: #fff;
+  --primary-font-size0-2: 0.2rem;
+  --primary-font-size1-2: 1.2rem;
+  --primary-font-size1-3: 1.3rem;
+  --primary-font-size1-4: 1.4rem;
+  --primary-font-size1-5: 1.5rem;
+  --primary-font-size1-6: 1.6rem;
+  --primary-font-size1-8: 1.8rem;
+  --primary-font: "SourceSansPro", "Helvetica Neue", "Helvetica", Arial,
+    sans-serif;
+  --primary-btn-bg-color: #0d6efd;
+  --primary-btn-color: #fff;
+  --primary-btn-size: 1rem;
+}

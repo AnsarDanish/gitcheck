@@ -1,0 +1,43 @@
+.err-header{
+
+    height: 50px;
+    display: flex;
+    background: #df7171;
+}
+
+.err-animtion {
+  /* display: inline-flex; */
+  animation:300ms erranimation  linear infinite alternate;
+}
+
+@keyframes erranimation {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+.err-background{
+    /* left: 50px;
+    top: 50px;
+    height: 50px;
+    width: 50px; */
+    display: flex;
+    position: absolute;
+    width: 400%;
+    height: 400%;
+    background-image: linear-gradient(rgb(184, 137, 137),rgb(231, 157, 136),orange);
+animation: 5s backanimation ease infinite;
+z-index: -1;
+
+}
+
+@keyframes backanimation {
+    0%{left:0%;top:0%}
+    50%{left:-300%;top:-200%}
+    100%{left:0%;top:0%}
+}
+
+

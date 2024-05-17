@@ -1,0 +1,24 @@
+iframe {
+  display: none
+}
+
+.maincompo_blk {
+    padding: 2%;
+    background: #fff; /* rgb(6, 34, 66); */
+    color: black;
+    /* width: 50%; */
+    align-items: center;
+  }
+
+  .client-details-box {
+    padding: 9px;
+    margin-bottom: 0px;
+  }
+
+  .inst-btn {
+    padding-right: 5px;
+  }
+
+  /* .highlight {
+    border: 2px solid blue;
+  } */

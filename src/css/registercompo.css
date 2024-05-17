@@ -1,0 +1,167 @@
+iframe {
+  display: none
+}
+
+.maincompo2 {
+  padding: 3%;
+  background: rgb(6, 34, 66);
+  color: white;
+  /* width: 50%; */
+  align-items: center;
+  font-family: smaller;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.mainsp {
+  font-family: ui-serif;
+  font-size: larger;
+  color: blanchedalmond;
+}
+
+.inppd {
+  padding: 5px;
+}
+
+.btn {
+  margin: 2%;
+  display: inline;
+}
+
+.formpadd {
+  padding: 3px;
+  line-height: inherit;
+  font-family: sans-serif;
+  border-radius: 3px;
+}
+
+.formpadd_danger {
+  padding: 3px;
+  line-height: inherit;
+  border: 1px solid rgb(0, 255, 30);
+}
+
+.insrtbtn {
+  font-size: 15px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.btndiv {
+  /* margin-left: 700px; */
+  text-align: right;
+}
+
+.insrtbtn2 {
+  font-size: 13px;
+  cursor: pointer;
+  margin: 3px;
+  /* margin-left: 13px; */
+}
+
+.datepointer {
+  cursor: pointer;
+}
+
+.mand {
+  color: red;
+  font-size: 1.5em;
+  padding-right: 5px;
+  position: relative;
+  bottom: -5px;
+}
+
+.mainlab {
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+/* .mndtryfals {
+  color: darkgrey;
+  font-size: 30px;
+} */
+
+.objpadd {
+  width: 528px;
+  margin-left: -4px;
+  font-size: 24px;
+  font-family: inherit;
+  border-radius: 8px;
+}
+
+.checkpadd {
+  width: 26px;
+  height: 18px;
+  border-radius: 2px;
+}
+
+.btttt {
+  font-size: 15px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+.btncen{
+  text-align: center;
+}
+
+.useric {
+  font-size: 90px;
+}
+
+.emailpadd {
+  margin-top: 14px;
+}
+
+.tbrow {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.datepadd {
+  margin-left: 0px;
+  font-size: 24px;
+  font-family: inherit;
+  border-radius: 7px;
+}
+
+.dblock {
+  flex: 0 0 auto;
+  width: 50%;
+  display: inline-block;
+}
+
+.text_al {
+  text-align: center;
+}
+
+
+.alert_danger{
+  color: black;
+    background-color: #f8d7da;
+    border-color: #f5c2c7;
+}
+
+.alert_success{
+  color: black;
+  background-color: #d1e7dd;
+  border-color: #badbcc;
+}
+
+.mrg{
+  margin-left: 27px;
+}
+
+.with{
+  width: 95%;
+}
+
+.backic {
+  cursor: pointer;
+}
+
+
+
+

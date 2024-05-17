@@ -1,0 +1,19 @@
+iframe {
+  display: none
+}
+
+.relationPage {
+  background: #fff;
+}
+
+.ownNav {
+  display: flex;
+  flex-wrap: inherit;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.clr {
+  color: #000;
+}

@@ -1,0 +1,382 @@
+iframe {
+  display: none;
+}
+
+.maincompo {
+  padding: 2%;
+  background: #fff; /* rgb(6, 34, 66); */
+  /* width: 50%; */
+  align-items: center;
+}
+
+.inppd {
+  padding: 5px;
+}
+
+.btn {
+  margin: 2%;
+  display: inline;
+}
+
+.formpadd {
+  padding: 3px;
+  line-height: inherit;
+}
+
+input.formbor {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+select.border {
+  border: 1px solid #ced4da;
+  padding: 0.375rem 0.35rem;
+}
+select.border:focus {
+  outline: none;
+}
+
+/* old btnsrc */
+/* .btnsrc {
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-left: 0px;
+  padding: 7px 10px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #000;
+} */
+
+/* new btnsrc */
+.btnsrc {
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-left: 0px;
+  padding: 3px 10px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #000;
+}
+
+.btnsrc-custom {
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-left: 0px;
+  padding: 9px 10px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #000;
+}
+@media (max-width: 700px) {
+  .btnsrc-custom {
+    padding: 10px 10px;
+    margin: 4px 0px;
+  }
+}
+
+.sf_container {
+  /* position: absolute; */
+  background: white;
+  border: #212529 solid 1px;
+  max-width: 50%;
+  z-index: 100;
+  box-shadow: black 5px 3px 8px;
+  justify-content: start;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.insrtbtn {
+  font-size: 13px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.tab_head {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.tip {
+  background-color: white;
+  max-width: 500p !important;
+  font-size: small;
+  border: #6c757d solid 1px;
+  margin: 0px;
+}
+
+.btndiv {
+  /* margin-left: 700px; */
+  background-color: #000;
+  color: #fff;
+}
+
+.btndivin {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.my-modal {
+  width: 90vw;
+  max-width: 90vw;
+}
+
+.insrtbtn2 {
+  font-size: 13px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.datepointer {
+  cursor: pointer;
+}
+
+.field_hd {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.mndtrygptrue {
+  color: #36c86e;
+  font-size: 0.7em;
+  position: relative;
+  bottom: 0.2em;
+  margin-right: 0.5em;
+}
+
+.mndtrytrue {
+  color: red;
+  font-size: 0.7em;
+  position: relative;
+  bottom: 0.2em;
+  margin-right: 0.5em;
+}
+
+.mndtryfalse {
+  color: darkgrey;
+  font-size: 0.7em;
+  position: relative;
+  bottom: 0.2em;
+  margin-right: 0.5em;
+}
+
+.unverifi {
+  border-color: red;
+}
+
+.objpadd {
+  width: 170px;
+  margin-left: 14px;
+  font-size: 21px;
+  font-family: inherit;
+  border-radius: 8px;
+}
+
+.objpadd_tm {
+  width: 250px;
+  margin-left: 14px;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 8px;
+}
+
+.checkpadd {
+  width: 26px;
+  height: 18px;
+  border-radius: 2px;
+}
+
+.formTop {
+  padding-top: 6px;
+}
+
+.objmargin {
+  width: 300px;
+  margin-left: 0px;
+  font-size: 18px;
+  font-family: inherit;
+  border-radius: 5px;
+  display: block;
+  padding: 3px;
+}
+
+.formpadd_danger {
+  padding: 3px;
+  line-height: inherit;
+  border: 1px solid red;
+}
+
+.refrcd {
+  padding: 2px 5px;
+  list-style-type: none;
+  cursor: pointer;
+  color: black;
+  background: white;
+  /* border-radius: 3px; */
+  /* width: 35%; */
+  /* border-style: groove; */
+}
+
+.fmcheck {
+  margin-left: -30px;
+  margin-top: 7px;
+}
+
+.rw {
+  margin: 0px 0px 0px 0px;
+  background: #ddd;
+  border-top: 1px solid #bbb;
+  border-right: 1px solid #bbb;
+  border-left: 1px solid #bbb;
+}
+
+@media (max-width: 768px) {
+  .nav-pills .nav-link.active {
+    background: var(--relation-nonactive);
+    color: #fff;
+    border-radius: 0px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+
+  .nav-pills .nav-link {
+    background: var(--relation-active);
+    border-right: 0.5px solid #fff;
+    color: #fff;
+    border-radius: 0px;
+  }
+}
+
+.rel_flex {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .nav-pills .nav-link.active {
+    background: var(--relation-active);
+    color: #fff;
+    border-radius: 0px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+  }
+
+  .nav-pills .nav-link {
+    background: var(--relation-nonactive);
+    border-right: 0.5px solid #fff;
+    color: #fff;
+    border-radius: 0px;
+  }
+}
+
+.nopad {
+  padding: 0px;
+  text-align: center;
+}
+
+.cur {
+  cursor: pointer;
+}
+
+.bck_btt_mrg {
+  /* margin-right: 42px; */
+  margin-left: 10px;
+}
+
+.form_tab {
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.form_alt {
+  padding: 0.2rem 0.2rem;
+  margin-bottom: 0px;
+  color: black;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.popup_txt_form {
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+  padding-left: 4px;
+  padding-right: 4px;
+  color: black;
+  margin-left: 8px;
+  border-radius: 5px;
+}
+
+.rel_flex {
+  display: flex;
+}
+
+.activity {
+  width: 60rem;
+  margin-left: 200px;
+  color: black;
+  border: 1px solid;
+}
+
+.activity_mob {
+  width: 100%;
+  color: black;
+  border: 1px solid;
+  margin-top: 5px;
+}
+
+.filt_bdr{
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.font-sz {
+  font-size: 19px;
+  letter-spacing: 0.6px;
+}
+
+.box-mar-pad {
+  margin: -10px auto;
+  padding-top: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  div.m-view {
+    margin: -32px 0px 0px 15px;
+    padding-top: 2.4px;
+  }
+  div.m-pad {
+    padding-top: 0px !important;
+  }
+  .bck {
+    background-color: var(--primary);
+    color: var(--primary-heading);
+    --bs-gutter-x: 0rem;
+    padding: 7px 5px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  div.modal-content {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+  }
+}

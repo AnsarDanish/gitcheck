@@ -1,0 +1,98 @@
+iframe {
+  display: none
+}
+
+.maincompo {
+  padding: 2%;
+  background: #fff;
+  color: white;
+  /* width: 50%; */
+  align-items: center;
+}
+
+.inppd {
+  padding: 5px;
+}
+
+.btn {
+  margin: 2%;
+  display: inline;
+}
+
+.formpadd {
+  padding: 3px;
+  line-height: inherit;
+}
+
+.insrtbtn {
+  font-size: 15px;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.btndiv {
+  /* margin-left: 700px; */
+  text-align: right;
+}
+
+.insrtbtn2 {
+  font-size: 13px;
+  cursor: pointer;
+  margin: 3px;
+  /* margin-left: 13px; */
+}
+
+.datepointer {
+  cursor: pointer;
+}
+
+.mndtrytrue {
+  color: red;
+  font-size: 0.7em;
+  position: relative;
+  bottom: 0.2em;
+  margin-right: 0.5em;
+}
+
+.mndtryfalse {
+  color: darkgrey;
+  font-size: 0.7em;
+  position: relative;
+  bottom: 0.2em;
+  margin-right: 0.5em;
+}
+
+.objpadd {
+  width: 420px;
+  margin-left: 14px;
+  font-size: 21px;
+  font-family: inherit;
+  border-radius: 8px;
+}
+
+.checkpadd {
+  width: 26px;
+  height: 18px;
+  border-radius: 2px;
+}
+
+.objmargin {
+  width: 300px;
+  margin-left: 0px;
+  font-size: 18px;
+  font-family: inherit;
+  border-radius: 5px;
+  display: block;
+  padding: 3px;
+}
+
+.formpadd_danger {
+  padding: 3px;
+  line-height: inherit;
+  border: 1px solid red;
+}
+
+.fmcheck {
+  margin-left: -30px;
+  margin-top: 7px;
+}

@@ -1,0 +1,51 @@
+.dropdwn {
+  margin: 3px;
+  padding: 6px 5px;
+  font-size: 16px;
+  border-radius: 8px;
+  /* border: 1px solid #115afd; */
+  width: 228px;
+  background-color: rgb(255 255 255);
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+  transition: box-shadow 0.3s ease 0s, border 0.3s ease 0s;
+  outline-color: #001291;
+}
+
+.mrgrepo {
+  margin-top: 38px;
+  margin-bottom: 20px;
+}
+
+.mrgrepopie {
+  margin-top: 100px;
+}
+
+.custom-tooltip {
+  margin: 0px;
+  padding: 4px 5px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 7px;
+  white-space: nowrap;
+}
+
+.label {
+  margin: 0px;
+  font-weight: bold;
+}
+
+.valuee {
+  display: block;
+  padding-top: 4px;
+  padding-bottom: 2px;
+  color: rgb(136, 132, 216);
+}
+
+.legend-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    /* Add any additional styling for the legend icon */
+  }

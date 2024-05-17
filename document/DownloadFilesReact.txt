@@ -1,0 +1,11 @@
+
+/**********ReactNewProjectDownloadFiles***********/
+npm i bootstrap
+npm i font-awesome
+npm i @properjs/core
+npm i axios
+npm i chart.js
+
+
+
+ 

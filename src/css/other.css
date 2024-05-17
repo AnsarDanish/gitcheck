@@ -1,0 +1,18 @@
+iframe {
+  display: none
+}
+
+.lab {
+  font-family: var(--primary-font);
+  margin: 10px 0px 0px 10px;
+}
+
+.labval {
+  font-family: var(--primary-font);
+  margin: 5px 0px 0px 10px;
+}
+
+.mar10 {
+  margin-left: 10px;
+  margin-top: 10px;
+}

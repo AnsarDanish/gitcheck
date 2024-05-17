@@ -1,0 +1,39 @@
+iframe {
+  display: none
+}
+
+.heading{
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+}
+
+.sub_hed{
+  background-color: black;
+  color: white;
+  padding-left: 13em;
+  text-align: center;
+}
+
+.bttn{
+  padding-left: 30em;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.rddd{
+  border-radius: 10px;
+}
+
+.rpt_border{
+  border: 1px solid;
+}
+
+.tdddd{
+  padding-left: 8px;
+  font-weight: bold;
+}
+
+.tddd1{
+  padding-left: 25px;
+}

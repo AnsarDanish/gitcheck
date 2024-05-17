@@ -1,0 +1,53 @@
+{
+   "css":[
+      {
+         "color":[
+            {
+               "name":"",
+               "value":""
+            },
+            {
+               "name":"",
+               "value":""
+            }
+         ],
+         "font":[
+            {
+               "name":"",
+               "value":""
+            },
+            {
+               "name":"",
+               "value":""
+            }
+         ],
+         "fontSize":[
+            {
+               "name":"",
+               "value":""
+            },
+            {
+               "name":"",
+               "value":""
+            }
+         ]
+      }
+   ]
+}
+
+loom table --> form record(error)
+click insert button --> Fields unverified:id, created, updated
+ownerPreference click none
+list of blankRecord show value
+setfilter not show --> relationlist
+
+label (left navigation space) 
+click reference icon --> error
+theme (pagination List Of records)
+userPreference
+beam filter timeline run 
+relationlist click id open record
+relationlist filternot set 
+sendnotification table click record -->
+
+LoomFormView --> showtype, role, group(multiple value)
